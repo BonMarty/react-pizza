@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BonMarty/bonmarty.github.io/react-pizza/static/css/main.85f8aefb.css",
+    "main.js": "/BonMarty/bonmarty.github.io/react-pizza/static/js/main.5b996d78.js",
+    "index.html": "/BonMarty/bonmarty.github.io/react-pizza/index.html",
+    "main.85f8aefb.css.map": "/BonMarty/bonmarty.github.io/react-pizza/static/css/main.85f8aefb.css.map",
+    "main.5b996d78.js.map": "/BonMarty/bonmarty.github.io/react-pizza/static/js/main.5b996d78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85f8aefb.css",
+    "static/js/main.5b996d78.js"
+  ]
+}

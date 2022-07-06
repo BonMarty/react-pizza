@@ -1,0 +1,55 @@
+.searchBox {
+  position: relative;
+  width: 50%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 8px 15px 8px 40px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+
+    &:focus {
+      border: 2px solid rgba(0, 0, 0, 0.5);
+    }
+
+    &:focus ~ .searchIcon {
+      fill: rgba(0, 0, 0, 0.8);
+    }
+
+    &:focus ~ .clearIcon {
+      fill: rgba(0, 0, 0, 0.8);
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  .searchIcon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 20px;
+    height: 20px;
+    fill: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .clearIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 28px;
+    height: 28px;
+    fill: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+}
